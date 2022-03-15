@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 /* 
 html {
   font-size: 10px;
@@ -34,7 +35,7 @@ body {
   margin-top: 20vh;
   padding: 1vh;
   width: 100%;
-  height: 12vh;
+  height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +43,7 @@ body {
 }
 
 .title img {
-  height: 10vh;
+  height: 13vh;
 }
 
 .title h1 {
@@ -52,5 +53,51 @@ body {
 
 main {
   width: 62%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
+form {
+  margin: 0;
+  padding: 0;
+}
+
+.mainTop,
+.mainForm,
+main > span {
+  padding: 5vh 40px;
+  padding-top: 0;
+}
+
+button {
+  margin: 5vh 40px;
+}
+
+.mainForm {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 8px 21px 0px rgba(0, 0, 0, 0.85);
+  box-shadow: 0px 8px 21px 0px rgba(0, 0, 0, 0.85);
+}
+
+.mainForm h4 {
+  display: block;
+}
+.mainForm {
+  /* width: 40%; */
+  display: flex;
+  flex-flow: column wrap;
+}
+
+fieldset {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1rem;
+  width: 100%;
+  border: none;
+  padding: 0;
+}
+
+.form-input {
+
+}
