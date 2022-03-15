@@ -99,9 +99,15 @@ fieldset {
   padding: 0;
 }
 
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
 input {
   border: 2px solid #E5E7EB;
   border-radius: 1%;
+  width: 80%;
 }
 
 input:focus {

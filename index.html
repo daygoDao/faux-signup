@@ -34,41 +34,42 @@
         <fieldset>
           <section class="form-input">
             <label for="firstName">FIRST NAME</label>
-            <input type="text" name="firstName" id="firstName">
+            <input type="text" name="firstName" id="firstName" required>
           </section>
 
           <section class="form-input">
             <label for="lastName">LAST NAME</label>
-            <input type="text" name="lastName" id="lastName">
+            <input type="text" name="lastName" id="lastName" required>
           </section>
 
           <section class="form-input">
             <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" placeholder="your@email.here" required>
           </section>
 
           <section class="form-input">
             <label for="phoneNum">PHONE NUMBER</label>
-            <input type="tel" name="phoneNum" id="phoneNum">
+            <input type="tel" name="phoneNum" id="phoneNum" placeholder="xxx-xxx-xxxx" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
           </section>
 
           <section class="form-input">
             <label for="passwd">PASSWORD</label>
-            <input type="password" name="passwd" id="passwd" class="error">
+            <input type="password" name="passwd" id="passwd" class="error" minlength="8" required>
           </section>
 
           <section class="form-input">
             <label for="confirm_passwd">CONFIRM PASSWORD</label>
-            <input type="password" name="confirm_passwd" id="confirm_passwd" class="error">
+            <input type="password" name="confirm_passwd" id="confirm_passwd" class="error" required>
           </section>
         </fieldset>
       </section>
 
-      <button>Create Account</button>
+      <button type="submit">Create Account</button>
     </form>
 
     <span>Already have an account? <a href="#">Log in</a></span>
 
+    <script src="./js/main.js"></script>
   </main>
 </body>
 
