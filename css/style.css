@@ -81,8 +81,9 @@ button {
 }
 
 .mainForm h4 {
-  display: block;
+  font-size: 1.2rem;
 }
+
 .mainForm {
   /* width: 40%; */
   display: flex;
@@ -98,6 +99,7 @@ fieldset {
   padding: 0;
 }
 
-.form-input {
-
+input {
+  border: 2px solid rgb(235, 235, 235);
+  border-radius: 1%;
 }
