@@ -65,7 +65,7 @@ form {
 
 .mainTop,
 .mainForm,
-main > span {
+main>span {
   padding: 5vh 40px;
   padding-top: 0;
 }
@@ -77,7 +77,7 @@ button {
 .mainForm {
   border: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0px 8px 21px 0px rgba(0, 0, 0, 0.85);
-  box-shadow: 0px 8px 21px 0px rgba(0, 0, 0, 0.85);
+  box-shadow: 0px 8px 21px 0px rgba(0, 0, 0, 0.25);
 }
 
 .mainForm h4 {
@@ -102,4 +102,18 @@ fieldset {
 input {
   border: 2px solid rgb(235, 235, 235);
   border-radius: 1%;
+}
+
+button {
+  background:  rgb(50, 131, 238);
+  padding: .6rem 2rem;
+  border-radius: 5%;
+  box-shadow: 3px 3px rgba(0,0,0,0.1);
+  color: white;
+  font-weight: 800;
+}
+
+a {
+  color: rgb(50, 131, 238);
+  text-decoration: none;
 }
