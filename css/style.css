@@ -100,15 +100,21 @@ fieldset {
 }
 
 input {
-  border: 2px solid rgb(235, 235, 235);
+  border: 2px solid #E5E7EB;
   border-radius: 1%;
 }
 
+input:focus {
+  outline: none !important;
+  border: 1px solid rgb(50, 131, 238);
+  box-shadow: 0 0 10px #719ECE;
+}
+
 button {
-  background:  rgb(50, 131, 238);
+  background: rgb(50, 131, 238);
   padding: .6rem 2rem;
   border-radius: 5%;
-  box-shadow: 3px 3px rgba(0,0,0,0.1);
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
   color: white;
   font-weight: 800;
 }
